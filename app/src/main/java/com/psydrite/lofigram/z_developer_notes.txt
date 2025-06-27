@@ -1,0 +1,37 @@
+Bug catching session 🐛 summary:
+
+Bugs (fix asap):
+done) lower ad intensity 🚨
+done 2) while downloading to cache, cancelling bugs out
+done) After I click "I agree" to the terms, it send button still shows lock symbol and does not update, not until a composition
+done) user clicks screensaver download -> user goes back -> error -> black screen
+3) when user not logged in, upgrade version should redirect to login, no default case [Done]
+5) When user not logged in or maybe even when logged in and basic user, upgrade button on homepage does not prompt user to login, just brings the upgrade page [Done]
+done 7) White bar after screensaver returns
+8) "Reset sessions" text is confusing, change to "reset sessions counter", reset test session (pomodoro) [Done]
+9) on signout: reset pomodoro and sleep timer + mediaplayer.stopsong + stop notification + cancel any scheduled notification (no need to cancel any ongoing downloads) [Done]
+done 10) change lock icon to cooldown icon
+done 11) When a premium user is logged in on the app and caches a song or a screen saver, when he signs out and logs in without google, the songs stream but the download icon still shows tick, likely due it still being in cache, similarly for screensaver
+
+Todo (asap):
+done) updated demo sounds
+done update the alert dialogue composables
+done 11) Edit profile button does nothing (remove it, only signout button)
+done 12) complete login page UI revamp
+13) Show premium and trial when user is not google logged in (we will then redirect them to login if they click upgrade) [Done]
+done 14) Add spacer below to UI pages
+done 15) screensaver screen back button
+done 16) Add padding etc and improve plain Text("") composables
+done under "reach out to us" add 2 buttons: Feedback: redirects to playstore rating; report an issue......new alert dialogue.
+for above, feedback button done
+done 18) In Upgrade page, change something something to something meaningful
+
+done 18) two string files
+ One private..... contains raw strings (api keys, database pathways) which will not be in github
+ One public........ contains redirecting to strings from private.....will be in github repository
+(Adding notes: "to use your version of the app, replace private strings with your own" )
+
+
+todo Look out for in future (maybe bugs):
+19) when not logged in, and user clicks on goto login (from login alert) "signed in wih google" toast shows
+20) for some reason cache tu bare bare clear hoi ase on set intervals
