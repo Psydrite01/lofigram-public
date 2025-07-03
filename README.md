@@ -58,8 +58,8 @@ Lofigram is a serene and mindful Android app designed to help you relax, focus, 
 
 ### Developers
 Built by:
-- Prudam Priyosanga Dutta (Psydrite01)
-- Biprangshu Das (jarvis1704)
+- Prudam Priyosanga Dutta ([Psydrite01](https://github.com/Psydrite01))
+- Biprangshu Das ([jarvis1704](https://github.com/jarvis1704))
 
 🎓 Indie developers from India
 📬 Contact: psydriteofficial@gmail.com
